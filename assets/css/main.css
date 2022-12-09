@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+#header {
+    width: 100%;
+}
+
+.page-1 {
+    position: relative;
+    height: 753px;
+}
+
+.page-1 .imgpage-1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+}
+
+.page-1 .contentpage-1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-page-1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(255, 126, 148);
+    background-color: pink;
+    width: 600px;
+}
+
+
+.btn-page1 {
+    display: flex;
+    position: absolute;
+    right: -150px;
+    font-size: 18px;
+}
+
+
+.btn1 {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-page1:hover .btn1 {
+    color: #fff;
+
+}
+
+.down_header {
+    position: absolute;
+    right: 35%;
+    bottom: -10px;
+    font-size: 40px;
+    padding: 20px 200px;
+    color: rgb(252, 115, 138);
+}
+
+.down_header:hover {
+    opacity: .7;
+}
+
+/* content */
+#content {
+    height: 753px;
+    position: relative;
+    
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    right: 43%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    font-size: 100px;
+}
+
+.click_next {
+    color: rgb(252, 137, 157);
+}
+
+.click_next:hover {
+    opacity: .7;
+}
+
+
+/* --------------------------------- */
+

@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: pink;
+}
+
+#header {
+
+}
+
+#content {
+    position: relative;
+    height: 753px;
+}
+
+#header img {
+    padding: 10px;
+    width: 23%;
+    opacity: 0;
+}
+
+.anni_1 {
+    animation: appear .3s .5s forwards;
+}
+
+.anni_2 {
+    animation: appear .3s 1s forwards;
+}
+
+.anni_3 {
+    animation: appear .3s 1.5s forwards;
+}
+
+.anni_4 {
+    animation: appear .3s 2s forwards;
+}
+
+.anni_5 {
+    animation: appear .3s 2.5s forwards;
+}
+
+.anni_6 {
+    animation: appear .3s 3s forwards;
+}
+
+.anni_7 {
+    animation: appear .3s 3.5s forwards;
+}
+
+.anni_8 {
+    animation: appear .3s 4s forwards;
+}
+
+.anni_9 {
+    animation: appear .3s 4.5s forwards;
+}
+
+.anni_10 {
+    animation: appear .3s 5s forwards;
+}
+
+.anni_11 {
+    animation: appear .3s 5.5s forwards;
+}
+
+.anni_12 {
+    animation: appear .3s 6s forwards;
+}
+
+.anni_13 {
+    animation: appear .3s 6.5s forwards;
+}
+
+.anni_14 {
+    animation: appear .3s 7s forwards;
+}
+
+.anni_15 {
+    animation: appear .3s 7.5s forwards;
+}
+
+.anni_16 {
+    animation: appear .3s 8s forwards;
+}
+
+.anni_17 {
+    animation: appear .3s 8.5s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: .1;
+    }
+
+    25% {
+        opacity: .25;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.click {
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    right: 45%;
+    font-weight: 700;
+    opacity: 0;
+    animation: appear .5s 9s forwards;
+    font-size: 60px;
+}
+
+.click a {
+    color: rgb(249, 96, 121);
+}
+
+.click:hover a {
+    opacity: .7;
+}
+
+#header p {
+    position: absolute;
+    top: 0;
+    left: 42%;
+    font-size: 20px;
+    color: rgb(249, 96, 121);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================HEART===================== */
+.heart {
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-size: 400px;
+    animation: heartbeat1 1s infinite;  
+    color: rgb(251, 127, 148);
+}
+
+/* 
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 200px;
+    top: 0;
+    width: 200px;
+    height: 350px;
+    background: rgb(248, 148, 165);
+    border-radius: 140px 140px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+} */
+
+
+
+@keyframes heartbeat1 {
+    0% {
+        opacity: 1;
+        transform: scale(.75);
+    }
+
+    20% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    40% {
+        opacity: 1;
+        transform: scale(.75);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(.75);
+    }
+}
+
+#content p {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(250, 96, 122);
+}

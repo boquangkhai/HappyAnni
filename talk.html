@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyAnni</title>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        p {
+            position: relative;
+            top: 150px;
+            font-size: 40px;
+            color: rgb(249, 96, 121);
+            text-align: center;
+            opacity: 0;
+
+        }
+
+        i {
+            font-size: 200px;
+            opacity: 0;
+
+        }
+
+        .a {
+            animation: appear .5s 1s forwards;
+        }
+
+        .b {
+            animation: appear .5s 1.5s forwards;
+        }
+
+        .c {
+            animation: appear .5s 2s forwards;
+        }
+
+        @keyframes appear {
+            0% {
+                opacity: .1;
+            }
+
+            25% {
+                opacity: .25;
+            }
+
+            50% {
+                opacity: .5;
+            }
+
+            75% {
+                opacity: .75;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cover">
+        <p class="a">Happy anniversary 1 years 6 months
+            <br><br>
+            <i class="b fa-solid fa-heart"></i>
+            <br>
+            
+        </p>
+        <p class="c">
+            Anh Yêu Em
+        </p>
+
+    </div>
+
+</body>
+
+</html>
