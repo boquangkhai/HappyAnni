@@ -99,6 +99,20 @@ html {
 
 .click_next:hover {
     opacity: .7;
+
+}
+
+.play {
+    opacity: .7;
+}
+
+.play {
+    position: absolute;
+    font-size: 16px;
+    top: 366px;
+    left: 764px;
+    font-weight: 700;
+    color: rgb(252, 48, 82);
 }
 
 
